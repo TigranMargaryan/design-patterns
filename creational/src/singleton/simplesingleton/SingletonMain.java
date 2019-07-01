@@ -1,4 +1,4 @@
-package singleton;
+package singleton.simplesingleton;
 
 public class SingletonMain {
     public static void main(String[] args){

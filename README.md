@@ -28,3 +28,18 @@ Provide an interface for creating families of related or dependent objects witho
 A hierarchy that encapsulates: many possible "platforms", and the construction of a suite of "products".
 
 ![alt text](http://www.design-patterns-stories.com/assets/img/uml/abstractfactory.png)
+ --------------------------------------------------------------
+
+##### 4.Builder
+
+Separate the construction of a complex object from its representation so that the same construction process can create different representations. Note: Handles complex constructors, large number of parameters, immutability Short definition: Pattern for handling the construction of objects that might contain a lot of parameters, and we want to make the object immutable when we done the construction.
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/builder.png)
+ 
+ --------------------------------------------------------------
+
+##### 5.Prototype
+
+Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype. Prototype is often an alternative to Abstract Factory. Short definition: Used when the type of object to create is determined by a prototypical instance which is cloned to produce an new instance. Ofter prototype is used to get a unique instance of the same object. 
+ 
+ ![alt text](http://www.design-patterns-stories.com/assets/img/uml/prototype.png) 
+  --------------------------------------------------------------
