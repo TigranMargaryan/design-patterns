@@ -2,41 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="898416f4-2a6f-47af-9160-3550f9315d0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/AbstractProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/AbstractProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/ConcreteFactory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/ConcreteFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/ProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/ProductA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/ProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/abstract_factory/ProductB2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/builder/BuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/builder/ConcreteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/builder/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/factory_method/Cirlce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/factory_method/FactoryMethodMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/factory_method/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/factory_method/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/factory_method/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/factory_method/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/prototype/ConcretePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/prototype/PrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/singleton/lazysingleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/src/singleton/lazysingleton/LazySingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/adapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/adapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/structural.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/creational.iml" beforeDir="false" afterPath="$PROJECT_DIR$/creational/creational.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/src/singleton/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/src/singleton/simplesingleton/SingletonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/src/singleton/SingletonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/src/singleton/simplesingleton/SingletonMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/creational/singleton/SingletonClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/creational/singleton/SingletonMain.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,13 +23,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="254">
-                <caret line="45" selection-start-line="45" selection-end-line="45" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/structural/src/adapter/Target.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/adapter/Adaptee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#75#76#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/structural/src/adapter/Adapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,21 +78,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/creational/src/prototype/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="120">
               <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/creational/src/prototype/PrototypeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,11 +151,14 @@
         <option value="$PROJECT_DIR$/creational/src/builder/ConcreteBuilder.java" />
         <option value="$PROJECT_DIR$/creational/src/builder/Director.java" />
         <option value="$PROJECT_DIR$/creational/src/builder/BuilderTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/creational/src/prototype/Prototype.java" />
         <option value="$PROJECT_DIR$/creational/src/prototype/ConcretePrototype.java" />
         <option value="$PROJECT_DIR$/creational/src/prototype/Client.java" />
         <option value="$PROJECT_DIR$/creational/src/prototype/PrototypeTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/structural/src/adapter/Target.java" />
+        <option value="$PROJECT_DIR$/structural/src/adapter/Adaptee.java" />
+        <option value="$PROJECT_DIR$/structural/src/adapter/Adapter.java" />
       </list>
     </option>
   </component>
@@ -179,7 +177,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,25 +187,26 @@
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrototypeTest.testPrototype">
+  <component name="RunManager" selected="JUnit.AdapterTest.testAdapter">
     <configuration name="FactoryMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory_method.FactoryMethodMain" />
       <module name="creational" />
@@ -269,6 +267,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdapterTest.testAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="structural" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adapter" />
+      <option name="MAIN_CLASS_NAME" value="adapter.AdapterTest" />
+      <option name="METHOD_NAME" value="testAdapter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuilderTest.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="creational" />
       <extension name="coverage">
@@ -281,21 +295,6 @@
       <option name="MAIN_CLASS_NAME" value="builder.BuilderTest" />
       <option name="METHOD_NAME" value="testBuilder" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LazySingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="creational" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.lazysingleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="singleton.lazysingleton" />
-      <option name="MAIN_CLASS_NAME" value="singleton.lazysingleton.LazySingletonTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdapterTest.testAdapter" />
         <item itemvalue="JUnit.PrototypeTest.testPrototype" />
         <item itemvalue="JUnit.BuilderTest.testBuilder" />
         <item itemvalue="JUnit.AbstractFactoryTest.testAbstractFactory" />
         <item itemvalue="Application.FactoryMethodMain" />
-        <item itemvalue="JUnit.LazySingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +336,10 @@
       <option name="presentableId" value="Default" />
       <updated>1561967935541</updated>
       <workItem from="1561967937130" duration="2258000" />
-      <workItem from="1561971213795" duration="6908000" />
+      <workItem from="1561971213795" duration="7014000" />
+      <workItem from="1562008217529" duration="15000" />
+      <workItem from="1562054752029" duration="758000" />
+      <workItem from="1562056314352" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="Added singleton class">
       <created>1561969738352</created>
@@ -346,13 +348,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561969738352</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Creational patterns">
+      <created>1561982172212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561982172212</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LazySingletonTest - 2019.07.01 at 13h 11m 19s.xml">
-      <configuration name="LazySingletonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LazySingletonTest - 2019.07.01 at 13h 11m 39s.xml">
       <configuration name="LazySingletonTest" configurationId="JUnit" />
     </history-entry>
@@ -380,15 +386,18 @@
     <history-entry file="BuilderTest_testBuilder - 2019.07.01 at 15h 38m 53s.xml">
       <configuration name="BuilderTest.testBuilder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrototypeTest_testPrototype - 2019.07.01 at 15h 54m 42s.xml">
+      <configuration name="PrototypeTest.testPrototype" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9166000" />
+    <option name="totallyTimeSpent" value="10574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="700" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18914185" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924694" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32924694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,7 +433,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added singleton class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added singleton class" />
+    <MESSAGE value="Added Creational patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Creational patterns" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
@@ -665,16 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="254">
-            <caret line="45" selection-start-line="45" selection-end-line="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/creational/src/prototype/Prototype.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -691,19 +691,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/creational/src/prototype/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/creational/src/prototype/PrototypeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="397">
+            <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/adapter/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/adapter/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/adapter/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/adapter/AdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

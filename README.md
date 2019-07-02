@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------
 
-####Creational patterns
+#### Creational patterns
 
 In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
 
@@ -33,6 +33,7 @@ A hierarchy that encapsulates: many possible "platforms", and the construction o
 ##### 4.Builder
 
 Separate the construction of a complex object from its representation so that the same construction process can create different representations. Note: Handles complex constructors, large number of parameters, immutability Short definition: Pattern for handling the construction of objects that might contain a lot of parameters, and we want to make the object immutable when we done the construction.
+
 ![alt text](http://www.design-patterns-stories.com/assets/img/uml/builder.png)
  
  --------------------------------------------------------------
@@ -43,3 +44,15 @@ Specify the kinds of objects to create using a prototypical instance, and create
  
  ![alt text](http://www.design-patterns-stories.com/assets/img/uml/prototype.png) 
   --------------------------------------------------------------
+
+#### Structural patterns
+
+These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
+
+ --------------------------------------------------------------
+
+##### 5.Adapter
+
+Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. 
+ 
+ ![alt text](http://www.design-patterns-stories.com/assets/img/uml/classadapter.png)
