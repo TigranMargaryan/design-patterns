@@ -51,8 +51,26 @@ These design patterns are all about Class and Object composition. Structural cla
 
  --------------------------------------------------------------
 
-##### 5.Adapter
+##### 6.Adapter
 
 Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. 
  
  ![alt text](http://www.design-patterns-stories.com/assets/img/uml/classadapter.png)
+ 
+  --------------------------------------------------------------
+  
+ ##### 7.Bridge
+ 
+ Decouple an abstraction from its implementation so that the two can vary independently. Short definition: The Bridge pattern is very similar to the Adapter with a main difference: bridge works with new code whereas an Adapter works with legacy code.
+ 
+ 
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/bridge.png)
+--------------------------------------------------------------
+
+##### 8.Composite
+
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat Short definition: Composite is a hierarchical type pattern that deals with tree structures of information. individual objects and compositions of objects uniformly. Composite is often used with Iterator or Visitor.
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/composite.png)
+--------------------------------------------------------------
+
