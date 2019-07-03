@@ -4,6 +4,8 @@
 
 #### Creational patterns
 
+--------------------------------------------------------------
+
 In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
 
 --------------------------------------------------------------
@@ -47,8 +49,9 @@ Specify the kinds of objects to create using a prototypical instance, and create
 
 #### Structural patterns
 
-These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
+--------------------------------------------------------------
 
+These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
  --------------------------------------------------------------
 
 ##### 6.Adapter
@@ -74,3 +77,34 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 ![alt text](http://www.design-patterns-stories.com/assets/img/uml/composite.png)
 --------------------------------------------------------------
 
+##### 9.Decorator
+
+ Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. Structure diagrams of Composite and Decorator are similar 
+ 
+ ![alt text](http://www.design-patterns-stories.com/assets/img/uml/decorator.png)
+ --------------------------------------------------------------
+
+##### 10.Facade
+
+Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use. 
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/facade.png)
+--------------------------------------------------------------
+
+##### 11.Flyweight
+
+Use sharing to support large numbers of fine-grained objects efficiently. 
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/flyweight.png)
+--------------------------------------------------------------
+
+##### 12.Proxy
+
+Provide a surrogate or placeholder for another object to control access to it. Short Definition: Proxy - is a pattern that act as an interface to something else.
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/proxy.png)
+--------------------------------------------------------------
+
+#### Behavioral patterns
+
+--------------------------------------------------------------
