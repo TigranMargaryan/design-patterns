@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="898416f4-2a6f-47af-9160-3550f9315d0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Compiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/ExpressionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/FacadeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/OperandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Tokenizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/ConcreteFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/Flyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/FlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/FlyweightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/UnsharedConcreteFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="898416f4-2a6f-47af-9160-3550f9315d0f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -242,8 +222,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="47" />
-    <option name="width" value="1346" />
-    <option name="height" value="658" />
+    <option name="width" value="1221" />
+    <option name="height" value="596" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -421,7 +401,7 @@
       <workItem from="1562152209285" duration="1215000" />
       <workItem from="1562164526024" duration="1188000" />
       <workItem from="1562165861967" duration="214000" />
-      <workItem from="1562326787906" duration="2473000" />
+      <workItem from="1562326787906" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="Added singleton class">
       <created>1561969738352</created>
@@ -458,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562165659856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added all patterns">
+      <created>1562330396903</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562330396903</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -494,12 +481,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15829000" />
+    <option name="totallyTimeSpent" value="15870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="700" extended-state="6" />
+    <frame x="10" y="47" width="1221" height="596" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2840909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31914893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,7 +528,8 @@
     <MESSAGE value="Added adapter pattern" />
     <MESSAGE value="Added composite,bridge patterns" />
     <MESSAGE value="Added decorator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added decorator pattern" />
+    <MESSAGE value="Added all patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all patterns" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/AbstractFactory.java">

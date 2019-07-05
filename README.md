@@ -191,14 +191,15 @@ Represent an operation to be performed on the elements of an object structure. V
 ![alt text](http://www.design-patterns-stories.com/assets/img/uml/visitor.png)
 --------
 
-####Creational patterns:
+#### Creational patterns:
+
     1. Singleton - the sole instance of a class
     2. Factory Method - subclass of object that is instantiated
     3. Abstract Factory - families of product objects
     4. Builder - how to composite object gets created
     5. Prototype - class of object that is instantiated
    --------
-####Structural patterns:
+#### Structural patterns:
  
      6. Adapter - interface to an object
      7. Bridge - implementation of an object
@@ -209,7 +210,7 @@ Represent an operation to be performed on the elements of an object structure. V
     12. Proxy - how to object is accessed; its lication
   --------
   
-####Behavioral patterns:
+#### Behavioral patterns:
    
        13. Chain of Responsibility - object that can fulfill a request
        14. Interpreter - grammar and interpretation of a language
