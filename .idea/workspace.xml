@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="898416f4-2a6f-47af-9160-3550f9315d0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structural/src/Decorator/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Decorator/ConcreteComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structural/src/Decorator/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Compiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/ExpressionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/FacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/OperandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Facade/Tokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/ConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/Flyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/FlyweightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Flyweight/UnsharedConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/src/Proxy/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -23,52 +34,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/Flyweight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/ConcreteFlyweight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/UnsharedConcreteFlyweight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/FlyweightFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#118#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/FlyweightTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/structural/src/Decorator/Decorator.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="97">
+                <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Proxy/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Proxy/RealSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structural/src/Proxy/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorA.java">
+        <entry file="file://$PROJECT_DIR$/structural/src/Proxy/ProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-              <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structural/src/Decorator/DecoratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="88">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +170,7 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/creational/src/singleton/qweqwe</dir>
       <dir>$PROJECT_DIR$/creational/src/builder</dir>
+      <dir>$PROJECT_DIR$/structural/src/Flyweight</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -101,22 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/creational/src/singleton/SingletonMain.java" />
-        <option value="$PROJECT_DIR$/creational/src/singleton/SingletonClass.java" />
-        <option value="$PROJECT_DIR$/creational/src/singleton/simplesingleton/SingletonClass.java" />
-        <option value="$PROJECT_DIR$/creational/src/singleton/lazysingleton/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/creational/src/singleton/lazysingleton/LazySingletonTest.java" />
-        <option value="$PROJECT_DIR$/creational/src/factory_method/Shape.java" />
-        <option value="$PROJECT_DIR$/creational/src/factory_method/Square.java" />
-        <option value="$PROJECT_DIR$/creational/src/factory_method/Rectangle.java" />
-        <option value="$PROJECT_DIR$/creational/src/factory_method/Cirlce.java" />
-        <option value="$PROJECT_DIR$/creational/src/factory_method/ShapeFactory.java" />
-        <option value="$PROJECT_DIR$/creational/src/factory_method/FactoryMethodMain.java" />
-        <option value="$PROJECT_DIR$/creational/src/abstract_factory/AbstractProductA.java" />
-        <option value="$PROJECT_DIR$/creational/src/abstract_factory/ProductA.java" />
-        <option value="$PROJECT_DIR$/creational/src/abstract_factory/ProductA2.java" />
-        <option value="$PROJECT_DIR$/creational/src/abstract_factory/AbstractProductB.java" />
-        <option value="$PROJECT_DIR$/creational/src/abstract_factory/ProductB.java" />
         <option value="$PROJECT_DIR$/creational/src/abstract_factory/ProductB2.java" />
         <option value="$PROJECT_DIR$/creational/src/abstract_factory/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/creational/src/abstract_factory/ConcreteFactory1.java" />
@@ -145,15 +207,37 @@
         <option value="$PROJECT_DIR$/structural/src/composite/Leaf.java" />
         <option value="$PROJECT_DIR$/structural/src/composite/Composite.java" />
         <option value="$PROJECT_DIR$/structural/src/composite/CompositeTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/structural/src/Decorator/Component.java" />
         <option value="$PROJECT_DIR$/structural/src/Decorator/ConcreteComponent.java" />
-        <option value="$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorA.java" />
         <option value="$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorB.java" />
-        <option value="$PROJECT_DIR$/structural/src/Decorator/DecoratorTest.java" />
         <option value="$PROJECT_DIR$/structural/src/Decorator/Decorator.java" />
+        <option value="$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorA.java" />
+        <option value="$PROJECT_DIR$/structural/src/Decorator/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/structural/src/Facade/Compiler.java" />
+        <option value="$PROJECT_DIR$/structural/src/Facade/Generator.java" />
+        <option value="$PROJECT_DIR$/structural/src/Facade/ExpressionNode.java" />
+        <option value="$PROJECT_DIR$/structural/src/Facade/OperandNode.java" />
+        <option value="$PROJECT_DIR$/structural/src/Facade/Parser.java" />
+        <option value="$PROJECT_DIR$/structural/src/Facade/FacadeTest.java" />
+        <option value="$PROJECT_DIR$/structural/src/Facade/Tokenizer.java" />
+        <option value="$PROJECT_DIR$/structural/src/Flyweight/Flyweight.java" />
+        <option value="$PROJECT_DIR$/structural/src/Flyweight/ConcreteFlyweight.java" />
+        <option value="$PROJECT_DIR$/structural/src/Flyweight/UnsharedConcreteFlyweight.java" />
+        <option value="$PROJECT_DIR$/structural/src/Flyweight/FlyweightFactory.java" />
+        <option value="$PROJECT_DIR$/structural/src/Flyweight/FlyweightTest.java" />
+        <option value="$PROJECT_DIR$/structural/src/Proxy/Subject.java" />
+        <option value="$PROJECT_DIR$/structural/src/Proxy/RealSubject.java" />
+        <option value="$PROJECT_DIR$/structural/src/Proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/structural/src/Proxy/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -169,8 +253,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,13 +272,6 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="structural" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structural" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -234,39 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DecoratorTest.testDecorator">
-    <configuration name="AdapterTest.testAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="structural" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adapter" />
-      <option name="MAIN_CLASS_NAME" value="adapter.AdapterTest" />
-      <option name="METHOD_NAME" value="testAdapter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BridgeTest.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="structural" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bridge" />
-      <option name="MAIN_CLASS_NAME" value="bridge.BridgeTest" />
-      <option name="METHOD_NAME" value="testBuilder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProxyTest.testProxy">
     <configuration name="CompositeTest.testComposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="structural" />
       <extension name="coverage">
@@ -299,17 +344,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeTest.testPrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="creational" />
+    <configuration name="FacadeTest.testFacade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="structural" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.*" />
+          <option name="PATTERN" value="Facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="prototype" />
-      <option name="MAIN_CLASS_NAME" value="prototype.PrototypeTest" />
-      <option name="METHOD_NAME" value="testPrototype" />
+      <option name="PACKAGE_NAME" value="Facade" />
+      <option name="MAIN_CLASS_NAME" value="Facade.FacadeTest" />
+      <option name="METHOD_NAME" value="testFacade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlyweightTest.testFlyweight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="structural" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Flyweight" />
+      <option name="MAIN_CLASS_NAME" value="Flyweight.FlyweightTest" />
+      <option name="METHOD_NAME" value="testFlyweight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest.testProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="structural" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Proxy" />
+      <option name="MAIN_CLASS_NAME" value="Proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="testProxy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -317,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProxyTest.testProxy" />
+        <item itemvalue="JUnit.FlyweightTest.testFlyweight" />
+        <item itemvalue="JUnit.FacadeTest.testFacade" />
         <item itemvalue="JUnit.DecoratorTest.testDecorator" />
         <item itemvalue="JUnit.CompositeTest.testComposite" />
-        <item itemvalue="JUnit.BridgeTest.testBuilder" />
-        <item itemvalue="JUnit.AdapterTest.testAdapter" />
-        <item itemvalue="JUnit.PrototypeTest.testPrototype" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +419,9 @@
       <workItem from="1562056314352" duration="617000" />
       <workItem from="1562091717359" duration="77000" />
       <workItem from="1562152209285" duration="1215000" />
-      <workItem from="1562164526024" duration="955000" />
+      <workItem from="1562164526024" duration="1188000" />
+      <workItem from="1562165861967" duration="214000" />
+      <workItem from="1562326787906" duration="2473000" />
     </task>
     <task id="LOCAL-00001" summary="Added singleton class">
       <created>1561969738352</created>
@@ -372,22 +451,17 @@
       <option name="project" value="LOCAL" />
       <updated>1562153411846</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added decorator pattern">
+      <created>1562165659856</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562165659856</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AbstractFactoryTest_testAbstractFactory - 2019.07.01 at 14h 32m 08s.xml">
-      <configuration name="AbstractFactoryTest.testAbstractFactory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AbstractFactoryTest_testAbstractFactory - 2019.07.01 at 14h 32m 40s.xml">
-      <configuration name="AbstractFactoryTest.testAbstractFactory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AbstractFactoryTest_testAbstractFactory - 2019.07.01 at 14h 32m 52s.xml">
-      <configuration name="AbstractFactoryTest.testAbstractFactory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AbstractFactoryTest_testAbstractFactory - 2019.07.01 at 14h 33m 15s.xml">
-      <configuration name="AbstractFactoryTest.testAbstractFactory" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BuilderTest_testBuilder - 2019.07.01 at 15h 38m 53s.xml">
       <configuration name="BuilderTest.testBuilder" configurationId="JUnit" />
     </history-entry>
@@ -406,21 +480,33 @@
     <history-entry file="CompositeTest_testComposite - 2019.07.03 at 15h 29m 33s.xml">
       <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DecoratorTest_testDecorator - 2019.07.03 at 18h 53m 48s.xml">
+      <configuration name="DecoratorTest.testDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FacadeTest_testFacade - 2019.07.05 at 16h 13m 43s.xml">
+      <configuration name="FacadeTest.testFacade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlyweightTest_testFlyweight - 2019.07.05 at 16h 17m 07s.xml">
+      <configuration name="FlyweightTest.testFlyweight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProxyTest_testProxy - 2019.07.05 at 16h 18m 52s.xml">
+      <configuration name="ProxyTest.testProxy" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13033000" />
+    <option name="totallyTimeSpent" value="15829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="700" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27954546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2840909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32924694" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18914185" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924694" />
@@ -438,9 +524,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -453,147 +539,10 @@
     <MESSAGE value="Added Creational patterns" />
     <MESSAGE value="Added adapter pattern" />
     <MESSAGE value="Added composite,bridge patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added composite,bridge patterns" />
+    <MESSAGE value="Added decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added decorator pattern" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/singleton/simplesingleton/SingletonMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/singleton/simplesingleton/SingletonClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/singleton/lazysingleton/LazySingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/singleton/lazysingleton/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/factory_method/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/factory_method/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/factory_method/Cirlce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/factory_method/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/factory_method/FactoryMethodMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/factory_method/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/AbstractProductA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/ProductA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/ProductA2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/AbstractProductB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/ProductB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/ProductB2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/creational/src/abstract_factory/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -857,26 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-428">
-            <caret line="53" column="226" selection-start-line="53" selection-start-column="226" selection-end-line="53" selection-end-column="226" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorB.java">
+    <entry file="file://$PROJECT_DIR$/structural/src/Decorator/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -884,10 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,31 +827,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structural/src/Decorator/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Decorator/ComponentDecoratorB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/structural/src/Decorator/DecoratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/Compiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/ExpressionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/OperandNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/Tokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#148#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/FacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Facade/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#92#100#0" expanded="true" />
+            <element signature="e#154#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/Flyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/ConcreteFlyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/UnsharedConcreteFlyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/FlyweightFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#118#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Flyweight/FlyweightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Proxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Proxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Proxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structural/src/Proxy/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="97">
+            <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

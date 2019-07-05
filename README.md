@@ -52,7 +52,8 @@ Specify the kinds of objects to create using a prototypical instance, and create
 --------------------------------------------------------------
 
 These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
- --------------------------------------------------------------
+
+--------------------------------------------------------------
 
 ##### 6.Adapter
 
@@ -108,3 +109,116 @@ Provide a surrogate or placeholder for another object to control access to it. S
 #### Behavioral patterns
 
 --------------------------------------------------------------
+
+In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
+
+--------------------------------------------------------------
+
+##### 13.Chain of Responsibility
+
+ Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it. Short Definition: It's behavioral pattern that decouples request from a handling object in a chain of handlers util it is finally recognized.
+ 
+ ![alt text](http://www.design-patterns-stories.com/assets/img/uml/chainofresponsibility.png)
+ ------------------------------------
+ 
+ ##### 14.Interpreter
+ 
+  Given a language, define a represention for its grammar along with an interpreter that uses the representation to interpret sentences in the language. Short Definition: It's behavioral pattern that you use to represent the grammar of the language. 
+  
+   ![alt text](http://www.design-patterns-stories.com/assets/img/uml/interpreter.png)
+   ----------------------
+   
+   ##### 15.Template Method
+   
+   Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure. Short Definition: Used to define an algorithm that allows subclasses to redefine parts of the algorithm without changing it's structure. 
+   
+   ![alt text](http://www.design-patterns-stories.com/assets/img/uml/templatemethod.png)
+   ----------------------
+   
+   ##### 16.Command
+   
+  Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. Short Definition: It's a design pattern that lets you encapsulate each request as an object.
+  
+  ![alt text](http://www.design-patterns-stories.com/assets/img/uml/command.png)
+--------------
+
+##### 17.Iterator
+
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. Short Definition: It's a design pattern for providing navigation without exposing of a structure of an object. 
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/iterator.png)
+   ----------------
+
+##### 18.Mediator
+
+Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently. Short Definition: Pattern that used to define how objects interacts with one another without have them refer to each other explicitly.
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/mediator.png)
+   ----------------
+   
+##### 19.Memento
+
+Without violating encapsulation, capture and externalize an object’s internal state so that the object can be restored to this state later. Short Definition: Pattern that used to externalize an object state usually to provide rollback functionality. 
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/memento.png)
+--------
+
+##### 20.Observer
+
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. Short Definition: Observer is a decoupling pattern, when we have a subject that need to be observed by one or more observers.
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/observer.png)
+------
+
+##### 21.State
+
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class. Short Definition: Used when we need to represent state of an application. 
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/state.png)
+-----
+
+##### 22.Strategy
+
+Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it. Short Definition: Used when you want to enable the strategy or algorithm to be selected at runtime.
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/strategy.png)
+------
+
+##### 23.Visitor
+
+Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. Short Definition: Way to separate an algorithm from an object structure.
+
+![alt text](http://www.design-patterns-stories.com/assets/img/uml/visitor.png)
+--------
+
+####Creational patterns:
+    1. Singleton - the sole instance of a class
+    2. Factory Method - subclass of object that is instantiated
+    3. Abstract Factory - families of product objects
+    4. Builder - how to composite object gets created
+    5. Prototype - class of object that is instantiated
+   --------
+####Structural patterns:
+ 
+     6. Adapter - interface to an object
+     7. Bridge - implementation of an object
+     8. Composite - structure and composition of an object
+     9. Decorator - responsibilities of an object without subclassing
+    10. Facade - interface to a subsystem
+    11. Flyweight - storage costs of objects
+    12. Proxy - how to object is accessed; its lication
+  --------
+  
+####Behavioral patterns:
+   
+       13. Chain of Responsibility - object that can fulfill a request
+       14. Interpreter - grammar and interpretation of a language
+       15. Template Method - steps of an algorithm
+       16. Command - when and how a request is fullfilled
+       17. Iterator - how an aggregate's elements are accessed, traversed
+       18. Mediator - how and which objects interact with each other
+       19. Memento - what private information is stored outside an object, and when
+       20. Observer - number of objects that depend on another object; how the dependent objects stay up to date
+       21. State - states of an object
+       22. Strategy - an algorithm
+       23. Visitor - operations that can be applied to object(s) without changing their class(es)
